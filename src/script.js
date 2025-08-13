@@ -206,7 +206,7 @@ const listener = new THREE.AudioListener();
 camera.add(listener);
 const sound = new THREE.Audio(listener);
 const audioLoader = new THREE.AudioLoader();
-audioLoader.load("sound.mp3", function (buffer) {
+audioLoader.load(import.meta.env.BASE_URL + "sound.mp3", function (buffer) {
   sound.setBuffer(buffer);
   sound.setLoop(true);
   sound.setVolume(audioParams.volume); // use initial value
