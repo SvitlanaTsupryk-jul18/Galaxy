@@ -1,7 +1,7 @@
 # Three.js first project using particles animation
 
 ## [Galaxy](https://svitlanatsupryk-jul18.github.io/Galaxy/) <- Click
-and click on the window after loads 😉 
+and click on the window after it loads 😉 
 
 ### Setup
 
